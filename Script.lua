@@ -1,4 +1,3 @@
-
 local Word = nil
 
 if game.PlaceId == 2753915549 then
@@ -20,11 +19,6 @@ function comma_value(amount)
 	return formatted
 end
 
-local newdata = game:GetService("HttpService"):JSONEncode(data)
-
-local headers = {
-	["content-type"] = "application/json"
-}
 local data = {
 	["embeds"] = {
 		{
